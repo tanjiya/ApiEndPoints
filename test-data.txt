@@ -1,0 +1,22 @@
+Test 1:
+
+Question entries all have a type, a name, dates, a “Question Required” attribute, an optional description and answers attached to them.
+
+Please send us the migration and complete model files for the Question and Question answers elements following the above description. The above description is brief, feel free to complete the files and elements with your own ideas and knowledge. The more complete and more creative the better.  
+
+Test 2:
+
+Create a job that runs every two days at 8am UTC and look for all question answers (from test 1) which are attached to a question type “textarea”  and are from the past 48 hours. Then, send an email to the app admin (declare the email the best you can) notifying him of the number of text answers. EG. Hey admin, in the past 48 hours, you received X answers to your text questions, that’s a lot to read. And list the last 5 in the email.  
+
+Test 3:
+
+Create a command that runs every 24 hours and soft deletes all question answers with an empty value from the past 24 hours.
+
+Test 4:
+
+Create an API endpoint to return all question answers in a paginated JSON response.
+
+
+Test 5:
+
+Create an API endpoint to update a question.
